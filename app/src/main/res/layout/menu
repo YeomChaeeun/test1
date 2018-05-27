@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#98d7ef"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="85dp"
+        android:paddingTop="50dp"
+        android:text="Travel"
+        android:textColor="@android:color/white"
+        android:textDirection="firstStrongLtr"
+        android:textSize="65sp"
+        android:shadowRadius="5.0"
+        android:shadowDx="5.0"
+        android:shadowDy="5.0"
+        android:shadowColor="#000000">
+
+    </TextView>
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:paddingLeft="85dp"
+        android:text="      Log"
+        android:textColor="@android:color/white"
+        android:textSize="55sp" />
+
+    <Button
+        android:id="@+id/l5"
+        style="@android:style/Widget.DeviceDefault.Button.Toggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/white"
+        android:lines="blue"
+        android:linksClickable="false"
+        android:padding="5dp"
+        android:text="여행 계획"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/l6"
+        style="@android:style/Widget.DeviceDefault.Button.Toggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/white"
+        android:lines="blue"
+        android:linksClickable="false"
+        android:padding="5dp"
+        android:text="로그 시작"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/l4"
+        style="@android:style/Widget.DeviceDefault.Button.Toggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/white"
+        android:lines="blue"
+        android:linksClickable="false"
+        android:padding="5dp"
+        android:text="여행 목록"
+        android:textSize="18sp" />
+
+</LinearLayout>
+
